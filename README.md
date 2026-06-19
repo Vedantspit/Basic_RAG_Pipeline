@@ -41,16 +41,18 @@ cd RAG
 
 ### Install Dependencies
 
+Using uv
+
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
-### Create Environment Variables
+### Environment Variables
 
 Create a `.env` file:
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_groq_api_key
 ```
 
 ### Run
